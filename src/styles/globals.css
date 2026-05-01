@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #faf4e6;
+  --color-cream-strong: #f7eed9;
+  --color-ink: #17130d;
+  --color-gold: #c18c2c;
+  --color-gold-dark: #b98114;
+  --color-line: #daa520;
+  --color-soft-white: #fffaf1;
+
+  --font-sans: "Work Sans", "Segoe UI", sans-serif;
+  --font-display: "Playfair Display", "Georgia", serif;
+
+  --shadow-soft: 0 16px 42px rgb(39 28 11 / 0.12);
+  --shadow-orbit: 10px 7px 0 rgb(209 154 37 / 0.45);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Dot indicators mark these areas as horizontally scrollable carousels. */
+.scroll-strip {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.scroll-strip::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: #000;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #c18c2c 0%, #fcf38a 50.52%, #c18c2c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
