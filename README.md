@@ -6,11 +6,11 @@ This project is a pixel-accurate frontend implementation of the **ADA Psychiatry
 
 The objective of this project was to faithfully reproduce the provided Figma design while maintaining:
 
-* Clean and scalable architecture
-* Reusable UI components
-* Maintainable styling system
-* Performance optimizations
-* Accessibility-friendly navigation
+- Clean and scalable architecture
+- Reusable UI components
+- Maintainable styling system
+- Performance optimizations
+- Accessibility-friendly navigation
 
 The application follows a **section-driven layout**, where each major section corresponds to a logical component and route anchor.
 
@@ -22,9 +22,9 @@ The application follows a **section-driven layout**, where each major section co
 
 Make sure the following are installed:
 
-* Node.js (v18+ recommended)
-* npm or yarn
-* Git
+- Node.js (v18+ recommended)
+- npm or yarn
+- Git
 
 ---
 
@@ -119,10 +119,10 @@ src/
 
 The system is built using:
 
-* **Reusable UI Components**
-* **Section-based composition**
-* **Centralized theme tokens**
-* **Scalable layout containers**
+- **Reusable UI Components**
+- **Section-based composition**
+- **Centralized theme tokens**
+- **Scalable layout containers**
 
 Each section is independently modular and reusable.
 
@@ -134,15 +134,15 @@ Each section is independently modular and reusable.
 
 Reusable UI primitives were created:
 
-* `Button`
-* `Container`
-* `SectionTitle`
+- `Button`
+- `Container`
+- `SectionTitle`
 
 This ensures:
 
-* Consistency across UI
-* Reduced duplication
-* Easier scaling
+- Consistency across UI
+- Reduced duplication
+- Easier scaling
 
 ---
 
@@ -182,9 +182,9 @@ Instead of raw colors, **design tokens** were used:
 
 Benefits:
 
-* Design consistency
-* Maintainability
-* Easier theming
+- Design consistency
+- Maintainability
+- Easier theming
 
 ---
 
@@ -192,11 +192,11 @@ Benefits:
 
 Several optimizations were applied:
 
-* Large images converted to **WEBP**
-* Lazy loading used where applicable
-* Reduced layout shifts
-* Lightweight SVG usage
-* Optimized asset sizes
+- Large images converted to **WEBP**
+- Lazy loading used where applicable
+- Reduced layout shifts
+- Lightweight SVG usage
+- Optimized asset sizes
 
 ---
 
@@ -204,8 +204,8 @@ Several optimizations were applied:
 
 Fonts used:
 
-* Work Sans → Body content
-* Playfair Display → Display headings
+- Work Sans → Body content
+- Playfair Display → Display headings
 
 Fallback handling ensures typography consistency.
 
@@ -249,14 +249,14 @@ Maintains serif visual identity
 Mobile layout is:
 
 ```text
-~90% completed
+~99% completed
 ```
 
 Remaining refinements:
 
-* Minor spacing adjustments
-* Some alignment fine-tuning
-* Typography scaling improvements
+- Minor spacing adjustments
+- Some alignment fine-tuning
+- Typography scaling improvements
 
 Tablet and desktop layouts are fully functional.
 
@@ -292,9 +292,9 @@ But not backend-integrated
 
 Examples:
 
-* FAQ accordion
-* CTA buttons
-* Navigation anchors
+- FAQ accordion
+- CTA buttons
+- Navigation anchors
 
 ---
 
@@ -308,9 +308,9 @@ The project was designed with performance best practices in mind.
 
 Optimizations:
 
-* Hero images converted to WEBP
-* Reduced asset weight
-* Proper image sizing
+- Hero images converted to WEBP
+- Reduced asset weight
+- Proper image sizing
 
 ---
 
@@ -318,9 +318,9 @@ Optimizations:
 
 Handled by:
 
-* Fixed layout dimensions
-* Stable component sizing
-* Predictable rendering order
+- Fixed layout dimensions
+- Stable component sizing
+- Predictable rendering order
 
 ---
 
@@ -328,19 +328,19 @@ Handled by:
 
 Improved via:
 
-* Lightweight JavaScript
-* Efficient rendering
-* Minimal blocking operations
+- Lightweight JavaScript
+- Efficient rendering
+- Minimal blocking operations
 
 ---
 
 ### Additional Performance Measures
 
-* Image optimization (WEBP format)
-* SVG usage instead of raster images
-* Lazy loading applied to images
-* Minimal DOM complexity
-* Clean component rendering
+- Image optimization (WEBP format)
+- SVG usage instead of raster images
+- Lazy loading applied to images
+- Minimal DOM complexity
+- Clean component rendering
 
 ---
 
@@ -348,11 +348,11 @@ Improved via:
 
 Basic accessibility practices were followed:
 
-* Semantic HTML elements
-* Descriptive alt attributes
-* Keyboard-accessible navigation
-* Readable color contrast
-* Clear heading hierarchy
+- Semantic HTML elements
+- Descriptive alt attributes
+- Keyboard-accessible navigation
+- Readable color contrast
+- Clear heading hierarchy
 
 ---
 
