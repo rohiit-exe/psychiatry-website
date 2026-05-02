@@ -32,8 +32,7 @@ export default function TreatmentFocus() {
       className="
         bg-cream
         pb-24
-        md:py-32
-        md:pt-26
+        pt-12 md:pt-22
       "
     >
       <div className="mx-auto max-w-4xl px-5">

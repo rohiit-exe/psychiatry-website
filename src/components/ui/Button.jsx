@@ -23,14 +23,12 @@ export default function Button({
       ? `
         w-[209px]
         h-[46px]
-
         text-[14px]
         leading-[18.5px]
       `
       : `
         w-[163px]
         h-[50px]
-
         text-[14px]
         leading-[18.5px]
       `;

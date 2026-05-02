@@ -6,7 +6,7 @@ import WaveDivider from "../../assets/images/wave-divider.png";
 export default function Founder() {
   return (
     <section
-      className="relative py-28 bg-bottom pb-40"
+      className="relative py-20 lg:pt-22 pb-28 bg-bottom"
       style={{
         backgroundImage: `url("${WaveDivider}")`,
         backgroundRepeat: "no-repeat",
@@ -15,99 +15,76 @@ export default function Founder() {
       }}
     >
       <Container>
-        <div className="relative h-[300px]">
-          {/* Image */}
-          <div className="relative z-10 w-[420px]">
+        {/* Main Wrapper: Flexbox with items-center for vertical alignment */}
+        <div className="flex flex-col items-center xl:flex-row xl:justify-center">
+          {/* Image Container */}
+          <div
+            className="
+              relative z-20 
+              w-full max-w-[480px] 
+              /* Desktop: pull the image right by 180px to overlap the card */
+              xl:-mr-[180px] 
+              xl:shrink-0
+            "
+          >
             <img
               src={founderPhoto}
-              alt="Lakisha Appleton"
+              alt="Lakeisha Appleton"
               className="
-                h-[260px]
+                h-[280px] sm:h-[350px] xl:h-[380px]
                 w-full
-                rounded-xl
+                rounded-2xl
                 object-cover
-                shadow-soft
+                shadow-2xl
               "
             />
           </div>
 
-          {/* Card */}
+          {/* Golden Card */}
           <article
             className="
-              absolute
-              top-1/2
-              left-[260px]
-              -translate-y-1/2
-              w-[820px]
-              rounded-2xl
+              relative
+              z-10
+              w-full
+              -mt-12 xl:mt-0 
+              xl:w-[850px]
+              xl:pl-[220px] 
+              xl:pr-12
+              xl:py-12
+              rounded-3xl
               border-2
-              
               border-[#DAA520]
-              py-10
-              pr-12
-              pl-[220px]
-
+              py-16 px-8
               shadow-soft
             "
           >
-            {/* Meet The Founder */}
-            <p
-              className="
-                font-display
-                font-semibold
-                text-[36px]
-                leading-[32px]
-              "
-            >
+            <p className="font-display font-semibold text-[32px] lg:text-[42px] leading-tight text-[#1A1A1A]">
               Meet The Founder
             </p>
 
-            {/* Name */}
-            <h2
-              className="
-                mt-4
-                font-display
-                font-medium
-                text-[24px]
-                leading-[28px]
-              "
-            >
+            <h2 className="mt-2 font-display font-medium text-[22px] lg:text-[26px] text-[#1A1A1A]">
               Lakeisha Appleton
             </h2>
 
-            {/* Credentials */}
-            <p
-              className="
-                font-sans
-                font-medium
-                text-[20px]
-                pt-[12px]
-                leading-[18.5px]"
-            >
-              FNP-C, PMHNP- BC
+            <p className="font-sans font-bold text-lg lg:text-[20px] pt-1 text-[#DAA520] tracking-wide">
+              FNP-C, PMHNP-BC
             </p>
 
-            {/* Quote */}
-            <p
-              className="
-                mt-5
-                font-sans
-                font-normal
-                text-[20px]
-                leading-[26px]
-                text-black/80
-                max-w-[520px]
-              "
-            >
+            <p className="mt-6 font-sans font-normal text-base lg:text-[19px] lg:leading-[28px] text-black/80 max-w-[500px]">
               “Mental health problems don’t define who you are. They are
               something you experience. You walk in the rain and you feel the
               rain, but importantly, YOU ARE NOT THE RAIN.” — Matt Haig
             </p>
 
-            {/* Button */}
-            <Button iconRight href="#founder" className="mt-6 px-6 py-2.5">
-              Learn More
-            </Button>
+            <div className="mt-8">
+              <Button
+                iconRight
+                href="#founder"
+                className="px-5 py-3 !w-[10rem] rounded-full bg-gradient-to-r from-[#D4AF37] to-[#F5D76E] text-black font-semibold"
+              >
+                Learn More
+              </Button>
+            </div>
           </article>
         </div>
       </Container>

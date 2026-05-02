@@ -1,7 +1,6 @@
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import Logo from "../../assets/icons/logo.svg";
 
-// Add a simple TikTok icon or use a library like FontAwesome/SimpleIcons if needed
 const TikTok = ({ size }) => (
   <svg
     width={size}
@@ -40,11 +39,11 @@ const footerLinks = {
 export default function Footer() {
   return (
     <footer id="footer" className="bg-black pt-12 pb-0 text-white">
-      <div className="pl-26 pr-6 mx-auto max-w-8xl">
-        <div className="grid gap-10 md:grid-cols-[1fr_1fr_1fr_1.2fr_1.8fr]">
+      <div className="px-6 md:pl-26 md:pr-6 mx-auto max-w-8xl">
+        <div className="grid gap-10 grid-cols-1 md:grid-cols-[1fr_1fr_1fr_1.2fr_1.8fr]">
           {/* Mapping Links Columns */}
           {Object.entries(footerLinks).map(([heading, links]) => (
-            <section key={heading}>
+            <section key={heading} className="text-center md:text-left">
               <h2 className="font-display font-medium text-[18px] leading-[30px] tracking-[0.2px] text-gold mb-6">
                 {heading}
               </h2>
@@ -64,7 +63,7 @@ export default function Footer() {
           ))}
 
           {/* Business Hours & Careers Column */}
-          <section className="flex flex-col gap-10">
+          <section className="flex flex-col gap-10 text-center md:text-left">
             <div>
               <h2 className="font-display text-xl text-gold mb-6">
                 Business Hours
@@ -92,7 +91,7 @@ export default function Footer() {
           </section>
 
           {/* Brand & Locate Column */}
-          <section className="flex flex-col items-start">
+          <section className="flex flex-col items-center md:items-start">
             <div className="flex items-center gap-4 mb-10">
               <img
                 src={Logo}
@@ -104,7 +103,7 @@ export default function Footer() {
               </span>
             </div>
 
-            <div className="space-y-6 w-full pl-[12px]">
+            <div className="space-y-6 w-full text-center md:text-left md:pl-[12px]">
               <div>
                 <h3 className="text-gold font-display text-lg mb-3">
                   Locate us
@@ -119,7 +118,7 @@ export default function Footer() {
                 <h3 className="text-gold text-lg mb-4 font-display">
                   Follow us
                 </h3>
-                <div className="flex gap-5 justify-start">
+                <div className="flex gap-5 justify-center md:justify-start">
                   <a href="https://instagram.com" className="hover:text-gold">
                     <Instagram size={20} />
                   </a>
@@ -141,6 +140,7 @@ export default function Footer() {
           </section>
         </div>
       </div>
+
       <p className="mt-14 py-4 border-t border-white/30 text-center font-sans font-normal text-[12px] leading-[30px] tracking-[0.2px] text-white/80">
         © ADA PSYCHIATRY. ALL RIGHTS RESERVED.
       </p>
