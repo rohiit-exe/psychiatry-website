@@ -1,0 +1,51 @@
+export const TESTIMONIAL_SLIDES = [
+  {
+    text: "ADA took a lot of the anxiety and stress out of the equation. I was able to easily sort the directory, and the provider profiles were so helpful in giving me a sense of their energy and approach.",
+    author: "Carl Rowan",
+    company: "Aglets Inc",
+    initials: "CR",
+    avatar: "https://picsum.photos/200/300",
+  },
+  {
+    text: "ADA took a lot of the anxiety and stress out of the equation. I was able to easily sort the directory, and the provider profiles were so helpful in giving me a sense of their energy and approach.",
+    author: "Carl Rowan",
+    company: "Aglets Inc",
+    initials: "CR",
+    avatar: "https://picsum.photos/200/300",
+  },
+  {
+    text: "ADA took a lot of the anxiety and stress out of the equation. I was able to easily sort the directory, and the provider profiles were so helpful in giving me a sense of their energy and approach.",
+    author: "Carl Rowan",
+    company: "Aglets Inc",
+    initials: "CR",
+    avatar: "https://picsum.photos/200/300",
+  },
+  {
+    text: "ADA took a lot of the anxiety and stress out of the equation. I was able to easily sort the directory, and the provider profiles were so helpful in giving me a sense of their energy and approach.",
+    author: "Carl Rowan",
+    company: "Aglets Inc",
+    initials: "CR",
+    avatar: "https://picsum.photos/200/300",
+  },
+  {
+    text: "ADA took a lot of the anxiety and stress out of the equation. I was able to easily sort the directory, and the provider profiles were so helpful in giving me a sense of their energy and approach.",
+    author: "Carl Rowan",
+    company: "Aglets Inc",
+    initials: "CR",
+    avatar: "https://picsum.photos/200/300",
+  },
+  {
+    text: "ADA took a lot of the anxiety and stress out of the equation. I was able to easily sort the directory, and the provider profiles were so helpful in giving me a sense of their energy and approach.",
+    author: "Carl Rowan",
+    company: "Aglets Inc",
+    initials: "CR",
+    avatar: "https://picsum.photos/200/300",
+  },
+  {
+    text: "ADA took a lot of the anxiety and stress out of the equation. I was able to easily sort the directory, and the provider profiles were so helpful in giving me a sense of their energy and approach.",
+    author: "Carl Rowan",
+    company: "Aglets Inc",
+    initials: "CR",
+    avatar: "https://picsum.photos/200/300",
+  },
+];

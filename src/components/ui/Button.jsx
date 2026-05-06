@@ -1,4 +1,4 @@
-import ArrowRight from "../../assets/icons/arrow-right.svg";
+import ArrowRight from "../../assets/icons/ui/arrow-right.svg";
 
 /**
  * Button Component

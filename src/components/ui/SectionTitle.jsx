@@ -6,7 +6,8 @@ export default function SectionTitle({ children, className = "" }) {
         text-[40px]
         leading-[32px]
         text-center
-        text-ink`}
+        text-ink
+        ${className}`}
     >
       {children}
     </h2>
