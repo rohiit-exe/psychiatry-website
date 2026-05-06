@@ -49,8 +49,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 #### Testimonials — Navigation Arrows
 
-- Added Swiper `Navigation` module with custom prev/next arrow buttons
-- Arrows use class selectors (`.testimonial-prev` / `.testimonial-next`) for full Tailwind styling control, avoiding conflicts with Swiper's default injected CSS
+- Added Swiper `Navigation` module
 - Arrow buttons flank the hexagon dot row in a single centered control bar
 
 #### States Section — Rebuilt from Structured Assets
